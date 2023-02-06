@@ -1,5 +1,5 @@
 #!/bin/bash
-#Simple drive copy/erase function using DD. Note: BE CAREFUL this doesn't do much to keep you from screwing something up and there's no way to go back after. Make sure the drives are the intended drives (or /dev/zero or /dev/urandom) before allowing it to run
+#Simple drive copy/erase function using DD. Note: BE CAREFUL this doesn't do much to keep you from screwing something up and there's no way to go back after. Make sure the drives are the intended drives (or /dev/zero or /dev/urandom if erasing) before allowing it to run
  
 read -p "Input: " input
 read -p "Output: " output
